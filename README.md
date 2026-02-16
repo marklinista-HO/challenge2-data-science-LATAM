@@ -17,6 +17,24 @@ El objetivo principal se centra en analizar el fenómeno de Evasión de Clientes
 
 
 <br>
+<h2>Entorno de desarrollo</h2>
+<p>Google Colab.</p>
+<br>
+
+---
+
+##  Tecnología utilizada y Librerías
+El proyecto fue desarrollado íntegramente en **Python**, utilizando las siguientes librerías especializadas para cada etapa del proceso:
+
+* **`requests`**: Extracción de datos. Se utilizó para conectar con la API fuente y descargar la información cruda en formato JSON.
+* **`pandas`**: Núcleo del análisis. Utilizada para la normalización del JSON (aplanamiento de diccionarios), limpieza de datos nulos, transformación de tipos de variables y manipulación tabular (DataFrames).
+* **`numpy`**: Soporte matemático. Implementada para el manejo eficiente de valores numéricos y tratamiento de vectores.
+* **`matplotlib.pyplot`**: Visualización base. Utilizada para la configuración de lienzos (`figure`, `subplots`) y personalización fina de los gráficos.
+* **`seaborn`**: Visualización estadística. Empleada para generar gráficos avanzados (Countplots, Boxplots) que permitieron identificar patrones complejos y correlaciones visuales de manera estética y clara.
+
+---
+
+<br>
 <h2>Notebook de análisis</h2>
 <p>El notebook con los análisis de los datos se encuentras en el archivo: TelecomX_LATAM.ipynb</p>
 <br>
@@ -35,7 +53,7 @@ El objetivo principal se centra en analizar el fenómeno de Evasión de Clientes
 ---
 
 
-## Lo que se pondrá en practica:
+## Lo que se pondrá en práctica:
 1. Importación y manipulación de datos desde una API de manera eficiente.
 2. Aplicar los conceptos de ETL (Extracción, Transformación y Carga) en la preparación de los datos.
 3. Crear visualizaciones estratégicas para identificar patrones y tendencias.
