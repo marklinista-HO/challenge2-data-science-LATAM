@@ -5,9 +5,9 @@ Telecom X
 Elaborado por: Mario Fco. Monzón 
 </h2>
 
+---
 
 ## Introducción
-
 
 <p>La empresa Telecom X enfrenta una alta tasa de cancelaciones y necesita comprender los factores que llevan a la pérdida de clientes. El desafío es recopilar, procesar y analizar los datos, utilizando Python y sus principales bibliotecas para extraer información.</p>
 
@@ -15,11 +15,11 @@ La evasión de clientes representa un problema relevante para el negocio, ya que
 
 El objetivo principal se centra en analizar el fenómeno de Evasión de Clientes **(churn)** en Telecom X, con el objetivo de identificar patrones y factores asociados a la cancelación del servicio.
 
+---
 
-<br>
 <h2>Entorno de desarrollo</h2>
 <p>Google Colab.</p>
-<br>
+
 
 ---
 
@@ -34,11 +34,8 @@ El proyecto fue desarrollado íntegramente en **Python**, utilizando las siguien
 
 ---
 
-<br>
 <h2>Notebook de análisis</h2>
 <p>El notebook con los análisis de los datos se encuentras en el archivo: TelecomX_LATAM.ipynb</p>
-<br>
-
 
 ---
 
