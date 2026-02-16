@@ -30,19 +30,20 @@ El objetivo principal se centra en analizar el fenómeno de Evasión de Clientes
 - Identificar variables categóricas asociadas a la evasión.
 - Comparar variables numéricas entre clientes que cancelan y los que no.
 - Explorar relaciones entre variables mediante análisis de correlación.
-- Generar insights relevantes para la toma de decisiones.
+- Generar informe final para la toma de decisiones.
 
 ---
 
 
+## Lo que se pondrá en practica:
+1. Importación y manipulación de datos desde una API de manera eficiente.
+2. Aplicar los conceptos de ETL (Extracción, Transformación y Carga) en la preparación de los datos.
+3. Crear visualizaciones estratégicas para identificar patrones y tendencias.
+4. Realizar un Análisis Exploratorio de Datos (EDA) y generar un informe final con recomendaciones.
 
-<br>
-<p>¿Qué se practicará?</p>
-<p>1. Importación y manipulación de datos desde una API de manera eficiente. </p>
-<p>2. Aplicar los conceptos de ETL (Extracción, Transformación y Carga) en la preparación de los datos. </p>
-<p>3. Crear visualizaciones estratégicas para identificar patrones y tendencias. </p>
-<p>Realizar un Análisis Exploratorio de Datos (EDA) y generar un informe con insights relevantes.</p>
-<br>
+---
+
+
 
 
 
