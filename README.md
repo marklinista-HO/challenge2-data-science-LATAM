@@ -1,6 +1,65 @@
-<h1>Este es el challenge2</h1>
-##  Descripción Ejecutiva
-Este proyecto aborda una problemática crítica de negocio para la empresa de telecomunicaciones **Telecom X**: la alta tasa de cancelación de suscriptores (*Churn*). 
+<h1>Challenge 2  ALURA-LATAM </h1>
+<h2>          
+Telecom X
+  
+Elaborado por: Mario Fco. Monzón 
+</h2>
 
-Actuando bajo el rol de Analista de Datos, se desarrolló un ciclo completo de inteligencia de negocios (ETL y EDA) para transformar datos crudos en insights estratégicos, identificando los patrones de comportamiento de los clientes que abandonan la compañía y proponiendo acciones de retención basadas en evidencia.
+
+## Introducción
+##  Descripción Ejecutiva
+
+<p>La empresa Telecom X enfrenta una alta tasa de cancelaciones y necesita comprender los factores que llevan a la pérdida de clientes. El desafío es recopilar, procesar y analizar los datos, utilizando Python y sus principales bibliotecas para extraer información.</p>
+
+La evasión de clientes representa un problema relevante para el negocio, ya que impacta directamente en la estabilidad y los ingresos. A través del análisis de datos, se busca generar información que sirva como base para futuras estrategias de retención y modelos predictivos.
+
+El objetivo principal se centra en analizar el fenómeno de Evasión de Clientes **(churn)** en Telecom X, con el objetivo de identificar patrones y factores asociados a la cancelación del servicio.
+
+
+
+
+
+
+
+
+**********************************************************************************************
+
+
+# 📊 Telecom X – ed
+
+
+---
+
+## 🎯 Objetivos del análisis
+
+- Analizar la distribución del churn entre los clientes.
+- Identificar variables categóricas asociadas a la evasión.
+- Comparar variables numéricas entre clientes que cancelan y los que no.
+- Explorar relaciones entre variables mediante análisis de correlación.
+- Generar insights relevantes para la toma de decisiones.
+
+---
+
+
+<h1>#challengeonetelecomx9   ow</h1>
+
+
+<br>
+<h2>🚨 Aviso</h2>
+<p>La solución de este Notebook la encuentras en el archivo: TelecomX_LATAM.ipynb</p>
+<br>
+<h2>📖 Descripción</h2>
+<h4>Churn de Clientes</h4>
+<p>La empresa Telecom X enfrenta una alta tasa de cancelaciones y necesita comprender los factores que llevan a la pérdida de clientes. El desafío será recopilar, procesar y analizar los datos, utilizando Python y sus principales bibliotecas para extraer información.</p>
+<br>
+<p>¿Qué se practicará?</p>
+<p>1. Importación y manipulación de datos desde una API de manera eficiente. </p>
+<p>2. Aplicar los conceptos de ETL (Extracción, Transformación y Carga) en la preparación de los datos. </p>
+<p>3. Crear visualizaciones estratégicas para identificar patrones y tendencias. </p>
+<p>Realizar un Análisis Exploratorio de Datos (EDA) y generar un informe con insights relevantes.</p>
+<br>
+
+
+
+
 
