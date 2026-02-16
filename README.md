@@ -7,7 +7,7 @@ Elaborado por: Mario Fco. Monzón
 
 
 ## Introducción
-##  Descripción Ejecutiva
+
 
 <p>La empresa Telecom X enfrenta una alta tasa de cancelaciones y necesita comprender los factores que llevan a la pérdida de clientes. El desafío es recopilar, procesar y analizar los datos, utilizando Python y sus principales bibliotecas para extraer información.</p>
 
@@ -16,21 +16,15 @@ La evasión de clientes representa un problema relevante para el negocio, ya que
 El objetivo principal se centra en analizar el fenómeno de Evasión de Clientes **(churn)** en Telecom X, con el objetivo de identificar patrones y factores asociados a la cancelación del servicio.
 
 
-
-
-
-
-
-
-**********************************************************************************************
-
-
-# 📊 Telecom X – ed
+<br>
+<h2>Notebook de análisis</h2>
+<p>El notebook con los análisis de los datos se encuentras en el archivo: TelecomX_LATAM.ipynb</p>
+<br>
 
 
 ---
 
-## 🎯 Objetivos del análisis
+## Objetivos del análisis
 
 - Analizar la distribución del churn entre los clientes.
 - Identificar variables categóricas asociadas a la evasión.
@@ -41,16 +35,7 @@ El objetivo principal se centra en analizar el fenómeno de Evasión de Clientes
 ---
 
 
-<h1>#challengeonetelecomx9   ow</h1>
 
-
-<br>
-<h2>🚨 Aviso</h2>
-<p>La solución de este Notebook la encuentras en el archivo: TelecomX_LATAM.ipynb</p>
-<br>
-<h2>📖 Descripción</h2>
-<h4>Churn de Clientes</h4>
-<p>La empresa Telecom X enfrenta una alta tasa de cancelaciones y necesita comprender los factores que llevan a la pérdida de clientes. El desafío será recopilar, procesar y analizar los datos, utilizando Python y sus principales bibliotecas para extraer información.</p>
 <br>
 <p>¿Qué se practicará?</p>
 <p>1. Importación y manipulación de datos desde una API de manera eficiente. </p>
