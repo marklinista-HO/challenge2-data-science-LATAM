@@ -9,11 +9,12 @@ Elaborado por: Mario Fco. Monzón
 
 ## Introducción
 
-<p>La empresa Telecom X enfrenta una alta tasa de cancelaciones y necesita comprender los factores que llevan a la pérdida de clientes. El desafío es recopilar, procesar y analizar los datos, utilizando Python y sus principales bibliotecas para extraer información.</p>
+<p>La empresa Telecom X enfrenta una alta tasa de cancelaciones y necesita comprender los factores que llevan a la pérdida de clientes. 
 
-La evasión de clientes representa un problema relevante para el negocio, ya que impacta directamente en la estabilidad y los ingresos. A través del análisis de datos, se busca generar información que sirva como base para futuras estrategias de retención y modelos predictivos.
+Esta evasión de clientes representa un problema relevante para el negocio, ya que impacta directamente en la estabilidad y en los ingresos. A través del análisis de datos, se busca generar información que sirva como base para futuras estrategias de retención y modelos predictivos.
 
-El objetivo principal se centra en analizar el fenómeno de Evasión de Clientes **(churn)** en Telecom X, con el objetivo de identificar patrones y factores asociados a la cancelación del servicio.
+El objetivo principal, utilizando Python y sus principales bibliotecas para extraer información, se centra en analizar el fenómeno de Evasión de Clientes **(churn)** en Telecom X, con el objetivo de identificar patrones y factores asociados a la cancelación del servicio.
+</p>
 
 ---
 
@@ -94,6 +95,44 @@ Para mitigar la tasa de Churn, se sugieren las siguientes estrategias basadas en
 ---
 
 
+---
+ed
+## 📌 Conclusiones e insights
+
+- El churn se concentra en clientes recientes.
+- Los contratos mensuales presentan mayor tasa de evasión.
+- La antigüedad actúa como un factor protector frente al churn.
+- El nivel de cargos influye en la decisión de abandono.
+
+---
+
+## 💡 Recomendaciones
+
+- Incentivar la migración hacia contratos de mayor duración.
+- Implementar estrategias de retención temprana en los primeros meses.
+- Evaluar beneficios para clientes con cargos elevados.
+- Utilizar las variables analizadas como base para modelos predictivos de churn.
+
+---
+
+CR
+## Conclusiones e Insights
+
+* Las cancelaciones se concentran en el servicio de internet por fibra optica, en aquellos contratos que son mensuales. Esto podría decirnos que los clientes prueban el servicio de internet por 1 mes y tienen una alta tasa de cancelación.
+* Invitamos a revisar los parámetros de servicio, tenemos las siguientes preguntas de negocio:
+    * ¿Se ofrece un buen nivel de servicio en Fibra óptica?
+    * ¿El servicio atención al cliente está enfocado en dar una buena experiencia a nuevos clientes?
+    * ¿Será necesario ofrecer condiciones más atractivas por contratos anuales, para disminuir la evasión?
+
+## Recomendaciones
+
+1. Revisar KPI del servicio de internet fibra óptica, para descartar evasión por calidad del servicio.
+2. Mejorar condiciones comerciales para nuevos clientes que opten por servicios anuales o bianuales, asegurando permanencia.
+3. Asegurar fidelización en los primeros 9 meses de servicio.
+
+
+
+---
 
 ##  Autor
  *Junior Software Developer & Data Analyst* ```
