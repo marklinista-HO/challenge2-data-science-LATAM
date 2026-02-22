@@ -65,7 +65,6 @@ El proyecto fue desarrollado íntegramente en **Python**, utilizando las siguien
 ### 1. Extracción y Transformación (ETL)
 * **Normalización:** Se procesó un archivo JSON anidado proveniente de una API, reestructurando diccionarios complejos para obtener un dataset tabular limpio de **7,032 registros** y **21 columnas**.
 * **Limpieza:** Se identificaron y eliminaron registros con valores vacíos en variables críticas (`Churn`, `TotalCharges`) y se estandarizaron los tipos de datos (conversión de `Object` a `Float` en cargos mensuales).
-* **Ingeniería de Características:** Binarización de variables categóricas clave para facilitar el análisis estadístico.
 
 ### 2. Análisis Exploratorio de Datos (EDA)
 Se realizaron análisis univariados y bivariados para detectar "puntos de dolor" en la experiencia del cliente:
@@ -79,70 +78,36 @@ Se realizaron análisis univariados y bivariados para detectar "puntos de dolor"
 El análisis reveló patrones claros que explican la fuga de clientes:
 
 1.  **Vulnerabilidad Contractual:** Los clientes con contratos **"Mes a Mes"** presentan una tasa de abandono drásticamente superior a los de contratos anuales (fidelidad >90%).
-2.  **Fricción en Pagos:** El método de pago **"Electronic Check"** es un factor crítico de riesgo; los usuarios que lo utilizan tienen una probabilidad de fuga significativamente mayor que aquellos con pagos automatizados.
-3.  **Problema en el Segmento Premium:** Los usuarios de **Fibra Óptica** (servicio de mayor costo) muestran mayores índices de cancelación que los de DSL, sugiriendo una insatisfacción con la relación calidad-precio.
-4.  **Curva de Permanencia:** El riesgo de pérdida es crítico durante los primeros **12 meses**. Superado el primer año, la fidelidad del cliente se estabiliza.
+2.  **Método de en Pago:** El método de pago **"Electronic Check"** es un factor crítico de riesgo; los usuarios que lo utilizan tienen una probabilidad de fuga significativamente mayor que aquellos con pagos automatizados.
+3.  **Desempeño del servicio:** Los usuarios de **Fibra Óptica** (servicio de mayor costo) muestran mayores índices de cancelación que los de DSL, sugiriendo una insatisfacción con la relación calidad-precio.
 
 ---
 
 ##  Conclusiones y Recomendaciones
-Para mitigar la tasa de Churn, se sugieren las siguientes estrategias basadas en datos:
-* Implementar un programa de **Onboarding y Fidelización** agresivo durante el primer año de vida del cliente.
-* Incentivar la migración de pagos manuales a **Débito Automático** mediante descuentos porcentuales.
-* Revisar la competitividad y calidad técnica del servicio de **Fibra Óptica**.
-* Promover contratos de largo plazo (1-2 años) ofreciendo beneficios exclusivos para reducir la volatilidad del segmento "Mes a Mes".
+________________________________________
+Conclusiones e Insights
+________________________________________
+-	El abandono de clientes se concentra principalmente en los primeros meses de permanencia.
+-	La tasa de evasión general es del 26.6%, lo cual es un porcentaje bastante crítico.
+-	La antigüedad del cliente (tenure) mantiene una relación inversa con la evasión. Los clientes que abandonan el servicio tienden a concentrarse en los primeros meses, mientras que aquellos con mayor permanencia presentan una probabilidad significativamente menor de churn
+-	Las cancelaciones se concentran en el servicio de Internet por fibra óptica, en aquellos contratos que son mensuales. Puede ser que los clientes prueban el servicio de Internet por 1 mes y posteriormente cancelan el servicio.
+-	Los medios de pago no automáticos están asociados a una mayor probabilidad de evasión.
+-	El churn no se distribuye de manera uniforme, sino que se concentra en perfiles específicos: clientes recientes, con contratos mensuales y mayores cargos.
+-	Los clientes que no usan los servicios de seguridad_online, backup_online y protección_dispositivo, presentan un alto registro de cancelaciones
+-	Desde el punto de vista económico, los clientes que cancelan suelen registrar cargos mensuales y diarios más elevados, lo que indica que el costo del servicio puede influir en la decisión de abandono. Este patrón se observa tanto en los análisis gráficos como en el análisis de correlación
+ 
+________________________________________
+Recomendaciones
+________________________________________
 
----
+1)  A los clientes con contratos mensuales, tratar de incentivarlos para que cambien de contrato mensual hacia contratos de mayor duración mediante incentivos tempranos.
 
+2)  Mejorar la percepción del servicio de fibra óptica a través de mejoras técnicas o campañas de satisfacción.
 
----
-ed
-## 📌 Conclusiones e insights
+3)  Promover más los métodos de pago automáticos.  Incentivar el cambio de usuarios de "Electronic Check" hacia débitos automáticos,
 
-- El churn se concentra en clientes recientes.
-- Los contratos mensuales presentan mayor tasa de evasión.
-- La antigüedad actúa como un factor protector frente al churn.
-- El nivel de cargos influye en la decisión de abandono.
+4)  Hacer un estudio o una evaluación para tratar de rebajar más las tarifas.
 
----
-
-## 💡 Recomendaciones
-
-- Incentivar la migración hacia contratos de mayor duración.
-- Implementar estrategias de retención temprana en los primeros meses.
-- Evaluar beneficios para clientes con cargos elevados.
-- Utilizar las variables analizadas como base para modelos predictivos de churn.
-
----
-
-CR
-## Conclusiones e Insights
-
-* Las cancelaciones se concentran en el servicio de internet por fibra optica, en aquellos contratos que son mensuales. Esto podría decirnos que los clientes prueban el servicio de internet por 1 mes y tienen una alta tasa de cancelación.
-* Invitamos a revisar los parámetros de servicio, tenemos las siguientes preguntas de negocio:
-    * ¿Se ofrece un buen nivel de servicio en Fibra óptica?
-    * ¿El servicio atención al cliente está enfocado en dar una buena experiencia a nuevos clientes?
-    * ¿Será necesario ofrecer condiciones más atractivas por contratos anuales, para disminuir la evasión?
-
-## Recomendaciones
-
-1. Revisar KPI del servicio de internet fibra óptica, para descartar evasión por calidad del servicio.
-2. Mejorar condiciones comerciales para nuevos clientes que opten por servicios anuales o bianuales, asegurando permanencia.
-3. Asegurar fidelización en los primeros 9 meses de servicio.
-
-
-
----
-
-##  Autor
- *Junior Software Developer & Data Analyst* ```
-
-
-
-
-
-
-
-
-
-
+5)  Implementar estrategias de retención enfocadas en clientes con baja antigüedad, haciendo énfasis a los primeros meses de relación con la empresa.
+6)  Mejorar condiciones comerciales para nuevos clientes que opten por servicios anuales o bianuales, y así asegurar su permanencia.
+7)  Desarrollar un modelo predictivo del parámetro ‘churn’.
